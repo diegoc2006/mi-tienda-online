@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+}
+
+/* Contenedor de productos */
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Diseño de cada producto */
+.producto {
+    background-color: white;
+    border: 2px solid #ddd;
+    padding: 15px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Tamaño de imágenes */
+.producto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+/* Botones */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo del carrito */
+.carrito-container {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 30px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de productos en el carrito */
+#carrito {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* Estilos para el total */
+#total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Botón de vaciar carrito */
+.vaciar-carrito {
+    background-color: #dc3545;
+}
+
+.vaciar-carrito:hover {
+    background-color: #c82333;
+}
