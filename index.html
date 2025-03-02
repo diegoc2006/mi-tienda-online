@@ -2,9 +2,10 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mi Tienda Online</title>
-    <link rel="stylesheet" href="styles.min.css">
+    <meta http-equiv="Cache-Control" content="max-age=31536000, immutable">
+    <link rel="stylesheet" href="style.min.css">
 </head>
 <body>
     <header>
@@ -15,19 +16,19 @@
         <section class="productos">
             <div class="producto">
                 <h2>Producto 1</h2>
-                <img loading="lazy" src="img/producto1.webp" alt="Producto 1">
+                <img src="img/producto1.webp" alt="Producto 1" loading="lazy">
                 <p>Precio: $10</p>
                 <button onclick="agregarAlCarrito('Producto 1', 10)">Agregar al Carrito</button>
             </div>
             <div class="producto">
                 <h2>Producto 2</h2>
-                <img loading="lazy" src="img/producto2.webp" alt="Producto 2">
+                <img src="img/producto2.webp" alt="Producto 2" loading="lazy">
                 <p>Precio: $15</p>
                 <button onclick="agregarAlCarrito('Producto 2', 15)">Agregar al Carrito</button>
             </div>
             <div class="producto">
                 <h2>Producto 3</h2>
-                <img loading="lazy" src="img/producto3.webp" alt="Producto 3">
+                <img src="img/producto3.webp" alt="Producto 3" loading="lazy">
                 <p>Precio: $20</p>
                 <button onclick="agregarAlCarrito('Producto 3', 20)">Agregar al Carrito</button>
             </div>
@@ -41,6 +42,6 @@
         </section>
     </main>
 
-    <script src="script.min.js"></script>
+    <script src="script.min.js" defer></script>
 </body>
 </html>
